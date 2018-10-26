@@ -1,0 +1,1 @@
+gpicview /home/pi/Desktop/QRCode.jpg

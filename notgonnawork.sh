@@ -1,0 +1,1 @@
+chmod +x gpicview /home/pi/Desktop/QRCode.jpg
