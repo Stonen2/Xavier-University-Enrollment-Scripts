@@ -28,7 +28,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Rachel Richter" & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Rachel Richter" & vbCrLf
 End With
 Loop
 .Forward = True
@@ -64,7 +64,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Brian Gipson" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Brian Gipson" & vbCrLf
 End With
 Loop
 .Forward = True
@@ -99,7 +99,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Arianna Dunn" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Arianna Dunn" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -137,15 +137,15 @@ With Selection.Find
 
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
-
+Selection.TypeText Text:=" " & vbCrLf
 .Name = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5BFKT7ca0yeByQ7iQ0NM5KZsmpSl0orC-sYvc7AD2ohjOLOZpQ"
-Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+
 
 
 
 
 .Execute
-Selection.TypeText Text:="Ashley Zeller" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Ashley Zeller" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -186,14 +186,14 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
-.Name = "https://i.kinja-img.com/gawker-media/image/upload/s--pGLnA03a--/c_scale,f_auto,fl_progressive,q_80,w_800/bqhumfnolbpcz4drj4vy.jpg"
+.Name = "https://pmdvod.nationalgeographic.com/NG_Video/306/151/smpost_1510772094465.jpg"
 
 
 
 
 
 .Execute
-Selection.TypeText Text:="Chloe Storm" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Chloe Storm" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -238,7 +238,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="David Donnelly" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "David Donnelly" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -278,7 +278,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Erin Melody" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Erin Melody" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -319,14 +319,14 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
-.Name = "jb20vaW1hZ2VzL2kvMDAwLzA5Ni8yODEvb3JpZ2luYWwvd2hpdGUtdHJlZS1mcm9nLmpwZw==https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcRHohSag9Y5M5cLULNwpN9CIuK3v1cXX63_cVi1lMUvMM4G8wMv"
+.Name = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/14/12/frog-pond.jpg?w968h681"
 
 
 
 
 
 .Execute
-Selection.TypeText Text:="Hannah Shirkey" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Hannah Shirkey" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -370,7 +370,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Jay Cloutier" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Jay Cloutier" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -412,7 +412,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Julie Nelson" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Julie Nelson" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -449,7 +449,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Kaitlin McGeeney" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Kaitlin McGeeney" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -492,7 +492,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Kelly Conklin" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Kelly Conklin" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -527,7 +527,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Lindsey Steller" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Lindsey Steller" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -565,7 +565,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Mike Garcia" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Mike Garcia" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -602,7 +602,7 @@ Selection.TypeText Text:=" " & vbCrLf & vbCrLf
 
 
 .Execute
-Selection.TypeText Text:="Tim Wilmes" & vbCrLf & vbCrLf
+Selection.TypeText Text:=vbCrLf & "Tim Wilmes" & vbCrLf & vbCrLf
 End With
 Loop
 .Forward = True
@@ -637,3 +637,4 @@ End With
 
 
 End Sub
+
