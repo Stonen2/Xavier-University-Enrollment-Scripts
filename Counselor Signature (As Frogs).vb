@@ -10,7 +10,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/RachelRichter_signature.png
 .Name = "https://images.mentalfloss.com/sites/default/files/styles/mf_image_16x9/public/502534-iStock-153768983.jpg?itok=a4zItlvW&resize=1100x1100"
+'.Name = "https://admissions.xavier.edu/www/images/RachelRichter_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Rachel Richter" & vbCrLf
 End With
@@ -35,7 +37,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/BrianGipson_signature.png
 .Name = "http://naturemappingfoundation.org/natmap/photos/amphibians/american_bullfrog_0184np.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/BrianGipson_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Brian Gipson" & vbCrLf
 End With
@@ -60,7 +64,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/AriannaDunn_signature.png
 .Name = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcQkT6ykLtM24ZxMm6zFmBd_0ugnlYeRTBn3l8TPrdA0FDkOZDvGDQ"
+'.Name = "https://admissions.xavier.edu/www/images/AriannaDunn_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Arianna Dunn" & vbCrLf & vbCrLf
 End With
@@ -85,7 +91,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/AshleyZeller_signature.png
 .Name = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcT-5BFKT7ca0yeByQ7iQ0NM5KZsmpSl0orC-sYvc7AD2ohjOLOZpQ"
+'.Name = "https://admissions.xavier.edu/www/images/AshleyZeller_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Ashley Zeller" & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf & vbCrLf
 End With
@@ -110,7 +118,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/ChloeStorm_signature.png
 .Name = "https://pmdvod.nationalgeographic.com/NG_Video/306/151/smpost_1510772094465.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/ChloeStorm_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Chloe Storm" & vbCrLf & vbCrLf
 End With
@@ -135,7 +145,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/DavidDonnelly_signature.png
 .Name = "https://pmdvod.nationalgeographic.com/NG_Video/306/151/smpost_1510772094465.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/DavidDonnelly_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "David Donnelly" & vbCrLf & vbCrLf
 End With
@@ -160,7 +172,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/ErinMelody_signature.png
 .Name = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/14/12/frog-pond.jpg?w968h681"
+'.Name = "https://admissions.xavier.edu/www/images/ErinMelody_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Erin Melody" & vbCrLf & vbCrLf
 End With
@@ -185,7 +199,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/HannahShirkey_signature.png
 .Name = "https://static.independent.co.uk/s3fs-public/thumbnails/image/2018/06/14/12/frog-pond.jpg?w968h681"
+'.Name = "https://admissions.xavier.edu/www/images/HannahShirkey_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Hannah Shirkey" & vbCrLf & vbCrLf
 End With
@@ -210,7 +226,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/JayCloutier_signature.png
 .Name = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcTbNlkw_129iVOBFK3N8-duInY1cCBeLYxvsmIn4usa1b99FGo"
+'.Name = "https://admissions.xavier.edu/www/images/JayCloutier_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Jay Cloutier" & vbCrLf & vbCrLf
 End With
@@ -235,7 +253,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/JulieNelson_signature.png
 .Name = "https://usercontent2.hubstatic.com/13746147_f496.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/JulieNelson_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Julie Nelson" & vbCrLf & vbCrLf
 End With
@@ -260,7 +280,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/KaitlinMcGeeney_signature.png
 .Name = "https://images.unsplash.com/photo-1506506447188-78e2a1051d9e?ixlib=rb-0.3.5&ixid=eyJhcHBfaWQiOjEyMDd9&s=6f7806c0a01af0521ed3e8062ce137d2&w=1000&q=80"
+'.Name = "https://admissions.xavier.edu/www/images/KaitlinMcGeeney_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Kaitlin McGeeney" & vbCrLf & vbCrLf
 End With
@@ -285,7 +307,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/KellyConklin_signature.png
 .Name = "http://www.aquariumofpacific.org/images/made/images/uploads/20170502_AOPfrog_pacifictree_5123_900_600_80auto.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/KellyConklin_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Kelly Conklin" & vbCrLf & vbCrLf
 End With
@@ -310,7 +334,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/LindseySteller_signature.png"
 .Name = "http://www.ontarioparks.com/parksblog/wp-content/uploads/2015/10/Bullfrog.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/LindseySteller_signature.png"
 .Execute
 Selection.TypeText Text:=vbCrLf & "Lindsey Steller" & vbCrLf & vbCrLf
 End With
@@ -335,7 +361,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/MikeGarcia_signature.png"
 .Name = "https://encrypted-tbn0.gstatic.com/images?q=tbn:ANd9GcSJEZRrCjjJmerfuQaK9kOWg75-1FKD706LwABNu6SYxytfSakTQw"
+'.Name = "https://admissions.xavier.edu/www/images/MikeGarcia_signature.png"
 .Execute
 Selection.TypeText Text:=vbCrLf & "Mike Garcia" & vbCrLf & vbCrLf
 End With
@@ -360,7 +388,9 @@ With Selection.Find
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
 Selection.TypeText Text:=" " & vbCrLf & vbCrLf
+'.Name = "https://admissions.xavier.edu/www/images/TimWilmes_signature.png
 .Name = "https://i.pinimg.com/originals/bf/4e/40/bf4e4067252227bd3f758bba7dcee2ff.jpg"
+'.Name = "https://admissions.xavier.edu/www/images/TimWilmes_signature.png
 .Execute
 Selection.TypeText Text:=vbCrLf & "Tim Wilmes" & vbCrLf & vbCrLf
 End With
@@ -376,4 +406,3 @@ Loop
 End With
 '''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''''
 End Sub
-
