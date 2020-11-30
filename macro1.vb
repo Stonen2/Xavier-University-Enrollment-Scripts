@@ -18,7 +18,7 @@ With Selection.Find
 
 Do While .Execute
 With Dialogs(wdDialogInsertPicture)
-.Name = "https://admissions.xavier.edu/www/images/Aaron%20Mies%20SignatureMacro2.png"
+.Name = ""
 Selection.TypeText Text:="Sincerely," & vbCrLf & vbCrLf
 
 
